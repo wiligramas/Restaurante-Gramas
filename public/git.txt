@@ -1,0 +1,17 @@
+git init // Para inicializar o nosso repositório
+git status //Quais arquivos estão ou n encluidos no controle de versão
+git add ou (git add . (ponto))  // prepara o arquivo para ser adicionado ao controlo de versão
+git commit -m "nome da versão criada ou atualizada" // serve para atualizar versões
+git remote add origin (link do projecto q acabamos de criar)
+git push --set-upstream origin master //serve para enviar o projecto para o git, o master é opcional (pesquisar mais acerca do master)
+ou git push origin main 
+ou git push -f origin master
+
+se renomeaste a master usa esses passos
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+
+
+ 
